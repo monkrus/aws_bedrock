@@ -2,6 +2,8 @@ import json
 import os
 import sys
 import boto3
+import langchain
+
 #import streamlit as st
 
 ## We will be suing Titan Embeddings Model To generate Embedding
@@ -13,7 +15,7 @@ from langchain.llms.bedrock import Bedrock
 
 import numpy as np
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import PyPDFDirectoryLoader
+from langchain.document_loaders import PyPDFDirectoryLoader
 
 # Vector Embedding And Vector Store
 
