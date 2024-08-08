@@ -4,7 +4,7 @@
 ### created->vector store
 
 `pip install -r requiremets.txt`
-# if problem with boto3 installation
+## if problem with boto3 installation
 `pip install boto3 -t .`
-# do not forget to add your pdf files here
-# do not forget to configure your AWS as well
+## do not forget to add your pdf files here
+## do not forget to configure your AWS as well
